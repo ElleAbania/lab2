@@ -78,6 +78,7 @@ themeButton.addEventListener('click', () => {
         }
     }
 
+    
 function topFunction() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
@@ -94,6 +95,22 @@ document.body.scrollTop = 0;
 document.documentElement.scrollTop = 0;
 }
 // end line 2ND COMMIT  function
+
+
+
+// 4th COMMIT  LOOPS
+    var close = document.getElementsByClassName('closebtn');
+    var i;
+    for (i = 0; i < close.length; i++) {
+        close[i].onclick = function () {
+            var div = this.parentElement;
+            div.style.opacity = '0';
+            setTimeout(function () {
+            div.style.display = 'none';
+            }, 600);
+        };
+    }
+// end line 4th COMMIT  LOOPS
 
 AOS.init({
   duration: 1000,
