@@ -44,7 +44,7 @@ themeButton.addEventListener('click', () => {
   localStorage.setItem('selected-icon', getCurrentIcon());
 });
 
-// new commit functions
+// 1st commit functions
     const sections = document.querySelectorAll('section[id]');
     function scrollActive() {
     const scrollY = window.pageYOffset;
