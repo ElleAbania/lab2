@@ -65,6 +65,30 @@ themeButton.addEventListener('click', () => {
     }
 // end line 1ST COMMIT  functions
 
+// 2ND COMMIT  function
+    let mybutton = document.getElementById('myBtn');
+    window.onscroll = function () {
+        scrollFunction();
+    };
+    function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = 'block';
+        } else {
+            mybutton.style.display = 'none';
+        }
+    }
+
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+// end line 2ND COMMIT  function
+
+// 3rd COMMIT  DATE
+  const d = new Date();
+  document.getElementById('demo').innerHTML = d;
+// end line 3rd COMMIT  DATE
+
 function topFunction() {
 document.body.scrollTop = 0;
 document.documentElement.scrollTop = 0;
