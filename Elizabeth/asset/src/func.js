@@ -44,7 +44,7 @@ themeButton.addEventListener('click', () => {
   localStorage.setItem('selected-icon', getCurrentIcon());
 });
 
-// 1st commit functions
+// 1ST COMMIT  function
     const sections = document.querySelectorAll('section[id]');
     function scrollActive() {
     const scrollY = window.pageYOffset;
@@ -63,7 +63,7 @@ themeButton.addEventListener('click', () => {
         }
     });
     }
-// end line 1ST COMMIT  functions
+// end line 1ST COMMIT  function
 
 // 2ND COMMIT  function
     let mybutton = document.getElementById('myBtn');
@@ -78,7 +78,6 @@ themeButton.addEventListener('click', () => {
         }
     }
 
-    
 function topFunction() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
@@ -86,17 +85,9 @@ function topFunction() {
 // end line 2ND COMMIT  function
 
 // 3rd COMMIT  DATE
-  const d = new Date();
-  document.getElementById('demo').innerHTML = d;
+    const d = new Date();
+    document.getElementById('demo').innerHTML = d;
 // end line 3rd COMMIT  DATE
-
-function topFunction() {
-document.body.scrollTop = 0;
-document.documentElement.scrollTop = 0;
-}
-// end line 2ND COMMIT  function
-
-
 
 // 4th COMMIT  LOOPS
     var close = document.getElementsByClassName('closebtn');
