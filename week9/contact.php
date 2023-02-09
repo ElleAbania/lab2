@@ -95,7 +95,7 @@
                     <textarea class="form-control" name="message" placeholder="Leave a comment here" id="floatingTextarea" style="height: 100px" required></textarea>
                   </div>
                 </div>
-                <input type="submit" name="insert" value="Add Data To Database">
+                <input type="submit" name="insert" class="text-white" value="Submit" style="background-color: red; border-radius: 5px;">
               </form>
 
               <div class="container mt-lg-4 shadow p-3 mb-5 bg-body-tertiary rounded" style="border-radius: 5px;">
