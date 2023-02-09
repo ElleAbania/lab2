@@ -82,7 +82,7 @@
                 <small>Message</small>
                 <textarea name="comment" rows="5" cols="40"><?php echo $comment; ?></textarea>
               </div>
-              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              <button type="button" class="btn btn-primary " name="submit"  data-bs-toggle="modal" data-bs-target="#exampleModal">
                 <span>Submit</span>
                 <div class="liquid"></div>
               </button>
@@ -93,7 +93,7 @@
                   <div class="modal-header">
                     <p class="modal-title fs-6 ms-lg-5 ps-lg-5">Your <span>Information</span> Will be Kept Confidential</p>
                   </div>
-                  <div class="modal-body">
+                  <div class="modal-body text-center">
                     <?php
                       echo $name;
                       echo "<br>";
