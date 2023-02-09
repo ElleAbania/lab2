@@ -7,7 +7,7 @@
           <div class="col-md-7 col-sm-12">
             <h6><span>Hello</span> there,</h6>
             <h3 id="text ">I am </h3>
-            <p> A 19-years old self-taught programmer, Junior Full-stack Developer</p>
+            <p> A 20-years old self-taught programmer, Junior Full-stack Developer</p>
           </div>
           <div class="col-md-5 mt-lg-5 pe-lg-5"><img class="home__img" src="asset/img/home1.png" style="height: 80% !important; border-radius: 500px;" width="80%" /></div>
         </div>
@@ -62,7 +62,7 @@
     <script>
       var i = 0,
         text;
-      text = " Elizabeth Abania"
+      text = "Elizabeth Abania"
       function typing() {
         if (i < text.length) {
           document.getElementById("text").innerHTML += text.charAt(i);
