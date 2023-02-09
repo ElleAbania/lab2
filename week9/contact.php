@@ -82,29 +82,18 @@
                 <small>Message</small>
                 <textarea name="comment" rows="5" cols="40"><?php echo $comment; ?></textarea>
               </div>
-              <button type="button" class="btn btn-primary " name="submit"  data-bs-toggle="modal" data-bs-target="#exampleModal">
-                <span>Submit</span>
-                <div class="liquid"></div>
-              </button>
+              <input type="submit" value="Submit" class="text-white" style="background-color: var(--first-color); border-radius: 6px;">
             </form>
-            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-              <div class="modal-dialog">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <p class="modal-title fs-6 ms-lg-5 ps-lg-5">Your <span>Information</span> Will be Kept Confidential</p>
-                  </div>
-                  <div class="modal-body text-center">
-                    <?php
-                      echo $name;
-                      echo "<br>";
-                      echo $email;
-                      echo "<br>";
-                      echo $comment;
-                    ?>
-                  </div>
-                </div>
-              </div>
+            <div class="container mt-lg-4 shadow p-3 mb-5 bg-body-tertiary rounded" style="border-radius: 5px;">
+              <?php
+                echo $name;
+                echo "<br>";
+                echo $email;
+                echo "<br>";
+                echo $comment;
+              ?>
             </div>
+        
           </div>
         </div>
     </section>
