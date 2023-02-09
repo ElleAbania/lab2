@@ -18,7 +18,7 @@
             <div class="col-md-7 col-sm-12">
               <h6><span>Hello</span> there,</h6>
               <h3 id="text">I am </h3>
-              <p> A 19-years old self-taught programmer, Junior Full-stack Developer</p>
+              <p> A BSIT with Specialization in Mobile and Internet Technologies student in Asia Pacific College</p>
             </div>
             <div class="col-md-5 mt-lg-5 pe-lg-5"><img class="home__img" src="asset/img/home1.png" style="height: 80% !important; border-radius: 500px;" width="80%" /></div>
           </div>
