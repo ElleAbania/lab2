@@ -52,15 +52,16 @@
     $hostname = "localhost";
     $username = "root";
     $password = "";
-    $database = "lab2";
+    $database = "myguests";
 
+    // $name = $_POST['id'];
     $name = $_POST['name'];
     $email = $_POST['email'];
     $message = $_POST['message'];
 
     $con = mysqli_connect($hostname, $username, $password, $database);
 
-    $q = "INSERT INTO `form`(`name`, `email`, `message`) VALUES ('$name','$email','$message')";
+    $q = "INSERT INTO `tbl_myguests`(`id`,`name`, `email`, `message`) VALUES ('$id','$name','$email','$message')";
     $result = mysqli_query($con, $q);
     if ($result) {
     } else {
@@ -69,6 +70,7 @@
     mysqli_close($con);
   }
 ?>
+
 
 <main>
   <section style="padding-bottom: 100px;" class="mt-lg-5">
