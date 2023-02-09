@@ -72,7 +72,7 @@
       <script>
         var i = 0,
           text;
-        text = " Elizabeth Abania"
+        text = "Elizabeth Abania"
         function typing() {
           if (i < text.length) {
             document.getElementById("text").innerHTML += text.charAt(i);
