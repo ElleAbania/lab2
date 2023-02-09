@@ -108,7 +108,7 @@
             <input type="submit" name="insert" class="text-white" value="Submit" style="background-color: red; border-radius: 5px;">
           </form>
 
-          <div class="container mt-lg-4 shadow p-3 mb-5 bg-body-tertiary rounded" style="border-radius: 5px;">
+          <div class="container mt-lg-4 shadow p-3 mb-5 bg-body-tertiary rounded" style="border-radius: 5px; background-color: var(--section)">
             <?php
             echo $name;
             echo "<br>";
