@@ -84,9 +84,9 @@ echo "<br>";
   <section style="padding-bottom: 100px;" class="mt-lg-5">
   <?php
         $servername = "localhost";
-        $username = "root";
-        $password = "";
-        $dbname = "myguests";
+        $username = "webprogmi212";
+        $password = "webprogmi212";
+        $dbname = "webprogmi212";
 
         // Create connection
         $conn = new mysqli($servername, $username, $password, $dbname);
@@ -95,7 +95,7 @@ echo "<br>";
         die("Connection failed: " . $conn->connect_error);
         }
 
-        $sql = "SELECT id, name, email, message FROM tbl_myguests";
+        $sql = "SELECT id, name, email, message FROM emabania_myguests";
         $result = $conn->query($sql);
 
         echo "<h1>My Guests</h1>";

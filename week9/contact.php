@@ -50,9 +50,9 @@
 <?php
   if (isset($_POST['insert'])) {
     $hostname = "localhost";
-    $username = "root";
-    $password = "";
-    $database = "myguests";
+    $username = "webprogmi212";
+    $password = "webprogmi212";
+    $database = "webprogmi212";
 
     // $name = $_POST['id'];
     $name = $_POST['name'];
@@ -61,7 +61,7 @@
 
     $con = mysqli_connect($hostname, $username, $password, $database);
 
-    $q = "INSERT INTO `tbl_myguests`(`id`,`name`, `email`, `message`) VALUES ('$id','$name','$email','$message')";
+    $q = "INSERT INTO `emabania_myguests`(`id`,`name`, `email`, `message`) VALUES ('$id','$name','$email','$message')";
     $result = mysqli_query($con, $q);
     if ($result) {
     } else {
